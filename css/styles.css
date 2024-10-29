@@ -1,0 +1,47 @@
+body {
+    background-color: #f4f6f8;
+}
+
+/* Style for the FAQ card */
+.faq-card {
+    background-color: #343a40;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for the FAQ header */
+.accordion-button {
+    background-color: #6c757d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Hover effect for FAQ header */
+.accordion-button:hover {
+    background-color: #5a6268;
+    color: #f8f9fa;
+}
+
+/* Style for the accordion content */
+.accordion-body {
+    background-color: #fff;
+    color: #343a40;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    margin-top: -1px;
+}
+
+/* FAQ Title Styling */
+h2.text-center {
+    color: #f8f9fa;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
